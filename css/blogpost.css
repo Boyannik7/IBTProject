@@ -1,0 +1,154 @@
+@import url('../css/fonts.css');
+
+html,body
+{
+    margin:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+:root
+{
+    /*Colors*/
+    --navbackground: #1abc9c;
+    --navbackground2:#7bdff2;
+    --hover:#348aa7;
+    /*...*/
+}
+a
+{
+  text-decoration: none;  
+}
+
+.flex-row
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h1
+{
+    font-family:Acme;
+    font-size: 2.5rem;
+   
+    
+}
+h3
+{
+    font-family:Acme;
+    font-size: 1.3rem;
+  
+}
+h4
+{
+    font-family:Acme;
+    font-size: 2rem;
+    
+}
+/*navigation*/
+.navigation
+{
+    background-color:orange;
+    padding-right:1rem;
+    padding-left: 3.5rem;
+    height: 0rem;
+    min-height: 8vh;
+    overflow: hidden;
+}
+
+.navigation .nav-brand
+{
+    font-size: 2.6rem;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    display:block;
+    font-family: Acme,cursive;
+
+    
+}
+
+.navigation .nav-menu
+{
+    justify-content: space-between;
+
+
+}
+
+.navigation .nav-items
+{
+    list-style-type: none;
+    display: flex;
+    margin:0;
+    font-family:Varela;
+    padding-right: 48.3rem;
+
+}
+.navigation .nav-items .nav-link
+{
+    padding:1rem 1rem;
+    padding: 28px;
+    font-size: 1.1rem;
+    position: relative;
+    text-align: center;
+}
+.navigation .nav-items .nav-link:hover
+{
+    background-color:var(--hover);
+}
+
+.nav-btn:hover
+{
+    background-color: var(--hover);
+}
+/* Footer */
+
+/*Main site section*/
+.container
+{
+    /*background: rgb(26,188,156);
+    background: linear-gradient(180deg, rgba(26,188,156,1) 17%, rgba(255,165,165,1) 100%);  */
+    background:rgb(34, 34, 34);
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 75% 25%;
+   
+}
+.site-content
+{
+  padding:20px;
+  text-align: center;
+}
+  /*Blog Form*/
+.post-section
+{
+    position: relative;
+}
+
+    /* Side image */
+.sideimg 
+{
+    background-color: #aaa;
+    width: 100%;
+    padding:10px;
+}
+  /* Add a card effect for articles */
+.card 
+{
+    background-color:orange;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+/*x-Main site section-x*/
+
+
+.footer 
+{
+    padding: 10px;
+    text-align: center;
+    background:orange;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
